@@ -4,7 +4,16 @@ $c-Very-Dark-Grayish-Blue: #48556a;
 $c-Desaturated-Dark-Blue: #6d7f97;
 $c-Grayish-Blue: #9eafc2;
 $c-Light-Grayish-Blue: #ecf2f8;
+$c-white: #fff;
 
 body {
 	background: $c-Light-Grayish-Blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	min-height: 100svh;
+
+	font-family: $ff-manrope;
 }
