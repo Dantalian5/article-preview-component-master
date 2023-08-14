@@ -12,7 +12,7 @@
 	background: $c-white;
 	box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.5);
 	&__image {
-		flex: 2 0 15.625rem;
+		flex: 1 1 15.625rem;
 		height: 12.5rem;
 		overflow: hidden;
 		border-top-left-radius: inherit;
@@ -25,9 +25,10 @@
 		}
 	}
 	&__article {
-		flex: 1 0 18.75rem;
+		flex: 2 1 18.75rem;
 		padding-block: 2rem 0;
-		border-radius: inherit;
+		border-bottom-left-radius: inherit;
+		border-bottom-right-radius: inherit;
 		& > * {
 			padding-inline: var(--article-inline-padding);
 		}
@@ -51,7 +52,8 @@
 		letter-spacing: 0.0076rem;
 	}
 	&__avatarid {
-		padding-block: 0.75rem 1.25rem;
+		// padding-block: 0.75rem 1.25rem;
+		padding-block: 1rem;
 	}
 }
 .attribution {
@@ -75,6 +77,8 @@
 		}
 		&__article {
 			max-width: 27.8125rem;
+			border-bottom-left-radius: 0;
+			border-top-right-radius: inherit;
 		}
 		&__title {
 			font-size: 1.25rem;
