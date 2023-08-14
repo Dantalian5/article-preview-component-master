@@ -9,7 +9,7 @@
 		"clean-public": "rimraf public",
 		"clean-parcel": "rimraf .parcel-cache dist",
 		"clean-git": "rimraf .git",
-		"end-project": "rimraf node_module dist .parcel-cache"
+		"end-project": "rimraf node_modules dist .parcel-cache"
 	},
 	"author": "",
 	"license": "ISC",
