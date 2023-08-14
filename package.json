@@ -2,7 +2,6 @@
 	"name": "project-name",
 	"version": "1.0.0",
 	"description": "This is a basic html nodejs boilerplate",
-	"main": "index.js",
 	"source": "src/index.html",
 	"scripts": {
 		"dev": "parcel",
