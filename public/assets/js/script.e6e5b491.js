@@ -1,1 +1,1 @@
-document.getElementById("js-btn"),document.getElementById("js-btn-popup");
+let t=document.getElementById("js-btn"),e=document.getElementById("js-btn-popup");t.onclick=function(){e.classList.toggle("active"),t.classList.toggle("active")};
